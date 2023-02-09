@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x echo "$(pwd -P)"
+echo "The current working directory is: $(pwd)"
