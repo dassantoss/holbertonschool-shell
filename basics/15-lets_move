@@ -1,0 +1,8 @@
+#!/bin/bash
+for file in *
+do
+	if["${file:0:1}"= [A-Z]]
+	then
+	ms "$file" /tmp/u/
+	fi
+done
