@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u=rwx,g=rx,o= ./hello ./olleh
+chmod 751 ./hello ./olleh
